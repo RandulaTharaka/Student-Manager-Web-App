@@ -1,12 +1,17 @@
 # Student-Manager-Web-App
+![repo-size](https://img.shields.io/github/repo-size/RandulaTharaka/Student-Manager-Web-App) 
+![top-language](https://img.shields.io/github/languages/top/RandulaTharaka/Student-Manager-Web-App) 
+![last-commit](https://img.shields.io/github/last-commit/RandulaTharaka/Student-Manager-Web-App) 
 
-## About
-This is a JSP and Servlet web application project that connects to a MySQL database allowing users to perform CRUD operations on students. The project has been developed using MVC architecture with DAO design pattern.
+## Description
+This is a JSP and Servlet web application project that connects to a MySQL database allowing users to perform CRUD operations on student records. The project has been developed using MVC architecture with DAO design pattern.
 
-A web browser submits a request to our servlet controller, which utilizes a helper class called 'StudentDbUtili'. This class communicates with the database, retrieves the data, and then the controller forwards the data to a JSP page, serving as the view. Finally, the view is sent back to the browser.
-In this application, the class named 'StudentDbUtili' acts as a Data Access Object (DAO), which is a commonly used pattern in programming to separate the data access logic from the rest of the application. By employing the DAO pattern, the code becomes more modular and maintainable.
+Following image depicts the MVC architecture with DAO design pattern used in the Student-Manager application. 
 
 ![Student-Manager MVC Architecture](https://github.com/RandulaTharaka/Student-Manager-Web-App/assets/60685092/2ab0e990-7d2b-4a50-889e-abbeb820c873)
+
+A web browser submits a request to the servlet controller, which utilizes a helper class called 'StudentDbUtili'. This class communicates with the database, retrieves the data, and then the controller forwards the data to a JSP page, serving as the view. Finally, the view is sent back to the browser.
+In this application, the class named 'StudentDbUtili' acts as a Data Access Object (DAO), which is a commonly used pattern in programming to separate the data access logic from the rest of the application. By employing the DAO pattern, the code becomes more modular and maintainable.
 
 ## Built With
 
@@ -18,7 +23,7 @@ Following applications must be installed in your system in oder to run this proj
 
 ## Installation 
 1. Clone the repository<br>
-   git clone ____________________
+   git clone https://github.com/RandulaTharaka/Exception-Handling-in-Java.git
 2. Create the MySQL user account<br>
    Open MySQL workbench and go to File -> Open SQL Script. Then open the '01-create-user.sql' file located in 'sql-scripts' folder in the repository and click execute button in the workbench.
 3. Create the Database<br>
