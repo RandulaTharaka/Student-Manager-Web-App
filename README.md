@@ -4,7 +4,7 @@
 ![last-commit](https://img.shields.io/github/last-commit/RandulaTharaka/Student-Manager-Web-App) 
 
 ## Description
-This is a JSP and Servlet web application project that connects to a MySQL database allowing users to perform CRUD operations on student records. The project has been developed using MVC architecture with DAO design pattern.
+This is a JSP and Servlet web application project that connects to a MySQL database allowing users to perform CRUD operations on student records. The project has been developed using MVC architecture with DAO design pattern. Further, JSP Standard Tag Library (JSTL) and JSP Scriplets have been used to render the View. 
 
 Following image depicts the MVC architecture with DAO design pattern used in the Student-Manager application. 
 
