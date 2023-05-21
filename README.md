@@ -23,13 +23,13 @@ Following applications must be installed in your system in oder to run this proj
 
 ## Installation 
 1. Clone the repository<br>
-   git clone https://github.com/RandulaTharaka/Exception-Handling-in-Java.git
+   git clone https://github.com/RandulaTharaka/Student-Manager-Web-App.git
 2. Create the MySQL user account<br>
    Open MySQL workbench and go to File -> Open SQL Script. Then open the '01-create-user.sql' file located in 'sql-scripts' folder in the repository and click execute button in the workbench.
 3. Create the Database<br>
    Go to File -> Open SQL Script in MySQL workbench. Then open the '02-students.sql' file located in 'sql-scripts' folder in the repository and click execute button in the workbench.
 4. Import the project in Eclipse<br>
-   Go to File -> Open projects from File System. Then click 'Directory' button and select the 'student-manager-web-app' folder in the repository. Then click 'Finish' button.
+   Go to File -> Open projects from File System. Then click 'Directory' button and select the 'student-manager' folder in the repository. Then click 'Finish' button.
 5. Run the project<br>
    Right click on the project and select 'Run As' -> 'Run on Server'. Then select 'Tomcat v8.5 Server' and click 'Next' button. In the next wizard click 'Browse' and select Tomcat 8.5 installation directory in your file system and click 'Finish' button.
 
