@@ -28,6 +28,7 @@ Following applications must be installed in your system in oder to run this proj
 - Java 11
 - Apache Tomcat Server 8.5
 - MySQL 8.0 and Workbench
+- Eclipse IDE
 
 ## Installation 
 1. Clone the repository<br>
