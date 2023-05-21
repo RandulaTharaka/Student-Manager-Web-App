@@ -13,8 +13,16 @@ Following image depicts the MVC architecture with DAO design pattern used in the
 A web browser submits a request to the servlet controller, which utilizes a helper class called 'StudentDbUtili'. This class communicates with the database, retrieves the data back to the controller, and then the controller forwards the data to a JSP page, serving as the view. Finally, the view is sent back to the browser.
 In this application, the class named 'StudentDbUtili' acts as a Data Access Object (DAO), which is a commonly used pattern in programming to separate the data access logic from the rest of the application. By employing the DAO pattern, the code becomes more modular and maintainable.
 
-## Built With
+### Built With
+<img align= "left" style="padding-right" width="30px" alt="html-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+<img align= "left" style="padding-right" width="30px" alt="css-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img align= "left" style="padding-right" width="30px" alt="java-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+<img align= "left" style="padding-right" width="30px" alt="mysql-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+<img align= "left" style="padding-right" width="30px" alt="tomcat-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" />       
+</br>
+</br>
 
+          
 ## Prerequisites
 Following applications must be installed in your system in oder to run this project.
 - Java 11
